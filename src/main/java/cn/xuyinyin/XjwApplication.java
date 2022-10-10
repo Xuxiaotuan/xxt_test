@@ -20,7 +20,6 @@ import org.apache.http.util.EntityUtils;
  * @author xjw
  */
 @RestController
-
 @SpringBootApplication
 public class XjwApplication {
 
