@@ -30,7 +30,7 @@ public class XjwApplication {
     public static final String url = "https://open.yiwenzaixian.com/cheyixun/oil_price/getCurrentOilPriceInfo?from=mini_program&province=%E5%B9%BF%E4%B8%9C%E7%9C%81&city=%E5%B9%BF%E5%B7%9E%E5%B8%82&miniprogram_brand=MacBookPro15%2C2&miniprogram_model=MacBookPro15%2C2&miniprogram_system=macOS%2012.5.1&miniprogram_platform=mac&miniprogram_wechat_version=3.5.5&miniprogram_SDKversion=2.18.1&miniprogram_version=0.0.18&miniprogram_envVersion=release";
 
 
-    @GetMapping
+    @GetMapping("/")
     public String test() throws JsonProcessingException {
         String json = httpGet(url);
         ObjectMapper objectMapper = new ObjectMapper();
