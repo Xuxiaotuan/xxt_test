@@ -22,7 +22,7 @@ public class XjwApplication {
 
     @GetMapping("/")
     public String test() {
-        log.info("Heool World");
+        log.info("Hello World");
         return "Hello World";
     }
 
